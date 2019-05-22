@@ -89,7 +89,10 @@ end
     until over?
       turn
     end
-    
-    puts "Congratulations #{winner}!"
+     if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's game!"
+    end
   end
 end
