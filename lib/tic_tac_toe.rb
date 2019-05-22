@@ -90,6 +90,6 @@ end
       turn
     end
     
-    puts winner
+    puts "Congratulations #{winner}!"
   end
 end
