@@ -40,6 +40,7 @@ end
   end
   
   def turn_count
+    board.count{|space| space != " "}
   end
   
   def turn
