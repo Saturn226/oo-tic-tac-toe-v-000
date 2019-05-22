@@ -51,7 +51,7 @@ end
     puts "Please enter 1-9: "
     index = input_to_index(gets.strip)
     if valid_move?(index)
-      move(index)
+      move(index, token)
     else
       turn
     end
