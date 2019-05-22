@@ -31,4 +31,7 @@ end
     @board[index] = token
   end
   
+  def position_taken?(index)
+    @board[index] != " "
+  end
 end
