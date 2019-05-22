@@ -86,5 +86,10 @@ end
   end
   
   def play
+    until over?
+      turn
+    end
+    
+    puts winner
   end
 end
