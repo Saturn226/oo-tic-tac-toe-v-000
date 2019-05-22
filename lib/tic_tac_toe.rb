@@ -15,5 +15,6 @@ WIN_COMBINATIONS = [
     @board = Array.new(" ", 9)
   end
   
+  def display_
   
 end
