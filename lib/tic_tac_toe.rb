@@ -43,6 +43,9 @@ end
     board.count{|space| space != " "}
   end
   
+  def current_player
+  end
+  
   def turn
     puts "Please enter 1-9: "
     index = input_to_index(gets.strip)
