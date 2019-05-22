@@ -29,6 +29,7 @@ end
   
   def move(index, token)
     @board[index] = token
+    display_board
   end
   
   def position_taken?(index)
