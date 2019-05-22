@@ -70,4 +70,8 @@ end
   def full?
     @board.all? {|space| space != " "}
   end
+  
+  def draw?
+    full? && !won?
+  end
 end
